@@ -9,7 +9,6 @@
     font-family: "Inter", sans-serif;
     color: hsl(0, 0%, 100%);
     line-height: 150%;
-    overflow-x: hidden;
 }
 
 html {
@@ -21,7 +20,6 @@ main {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 100vw;
 }
 
 .card {
@@ -37,7 +35,7 @@ main {
 }
 
 img {
-    max-width: 28%;
+    max-width: 30%;
     border-radius: 100px;
     margin-bottom: 20px;
     align-self: center;
@@ -69,13 +67,16 @@ li {
     background: hsl(0, 0%, 20%);
     margin-top: 15px;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 a {
     text-decoration: none;
 }
 
-li:hover
+li:hover {
+    background: hsl(75, 94%, 57%);
+}
 
 footer {
     display: flex;
