@@ -74,7 +74,7 @@ a {
     text-decoration: none;
 }
 
-li:hover {
+li:hover, li:focus {
     background: hsl(75, 94%, 57%);
 }
 
