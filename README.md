@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://rapbit27.github.io/03_Social_Links_Profile/)
-- Live Site URL: [Add live site URL here](https://github.com/Rapbit27/03_Social_Links_Profile)
+- Solution URL: [Source code](https://github.com/Rapbit27/03_Social_Links_Profile)
+- Live Site URL: [Live-site](https://rapbit27.github.io/03_Social_Links_Profile/)
 
 
