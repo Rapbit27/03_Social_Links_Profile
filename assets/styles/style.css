@@ -20,7 +20,7 @@ main {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    padding: 2rem;
+    overflow: hidden;
 }
 
 .card {
@@ -30,13 +30,12 @@ main {
     text-align: center;
     background: hsl(0, 0%, 12%);
     padding: 1.5rem;
-    margin: 1rem;
     max-width: 25rem;
     border-radius: 1rem;
 }
 
 img {
-    max-width: 7rem;
+    max-width: 6rem;
     border-radius: 8rem;
     margin-bottom: 1.5rem;
     align-self: center;
