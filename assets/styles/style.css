@@ -20,6 +20,7 @@ main {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    padding: 2rem;
 }
 
 .card {
@@ -28,45 +29,49 @@ main {
     justify-content: center;
     text-align: center;
     background: hsl(0, 0%, 12%);
-    padding: 24px;
-    margin: 24px;
-    max-width: 320px;
-    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 1rem;
+    max-width: 25rem;
+    border-radius: 1rem;
 }
 
 img {
-    max-width: 30%;
-    border-radius: 100px;
-    margin-bottom: 20px;
+    max-width: 7rem;
+    border-radius: 8rem;
+    margin-bottom: 1.5rem;
     align-self: center;
 }
 
 .name {
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
 .location {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
     color: hsl(75, 94%, 57%);
 }
 
 .bio {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    margin-bottom: 0.5rem;
 }
 
 li {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 700;
     list-style: none;
-    padding: 10px;
+    padding: 0.75rem;
     background: hsl(0, 0%, 20%);
-    margin-top: 15px;
-    border-radius: 7px;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
     cursor: pointer;
 }
 
@@ -92,8 +97,8 @@ footer {
   color: hsl(227, 37%, 62%);
 }
 
-@media screen and (min-width:375px) {
+@media screen and (min-width:30rem) {
     .card {
-        min-width: 280px;
+        min-width: 20rem;
     }
 }
